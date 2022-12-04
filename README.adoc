@@ -1,0 +1,10 @@
+# CLI AI Completions
+
+Usage
+
+[source,shell]
+----
+ poetry run python3 ai/main.py "what is the muscle that extends the knee joint"
+----
+
+

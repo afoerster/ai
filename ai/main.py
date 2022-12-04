@@ -11,7 +11,7 @@ def main():
     if firstArg == "models":
         models()
     else:
-        print(complete(firstArg))
+        print(complete(' '.join(sys.argv)))
 
 
 def complete(prompt):
@@ -33,5 +33,4 @@ def token():
 
 
 if __name__ == "__main__":
-    # models()
     main()

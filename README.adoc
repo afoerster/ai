@@ -1,10 +1,18 @@
 # CLI AI Completions
 
-Usage
+.Installation
+[source, shell]
+----
+poetry install
+````
 
+.Usage
 [source,shell]
 ----
- poetry run python3 ai/main.py "what is the muscle that extends the knee joint"
+poetry shell
+
+ai "what is the muscle that extends the knee joint"
+ai models
 ----
 
 

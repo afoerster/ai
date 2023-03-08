@@ -6,8 +6,8 @@ authors = ["Tony Foerster <anthonymfoerster@gmail.com>"]
 readme = "README.adoc"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-openai = "^0.25.0"
+python = "^3.10"
+openai = "^0.27.0"
 
 
 [build-system]

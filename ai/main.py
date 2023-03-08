@@ -16,9 +16,9 @@ def main():
 
 def complete(prompt):
     openai.api_key = token()
-    response = openai.Completion.create(model="text-davinci-003", prompt=prompt, temperature=0, max_tokens=1000)
+    response = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": prompt}])
 
-    return response.choices[0].text
+    return response.choices[0].message.content
 
 
 def models():
